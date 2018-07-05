@@ -1,0 +1,87 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+body, html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Comfortaa', cursive;
+}
+
+/*SEARCH BAR*/
+.adminSearch {
+	height: auto;
+	width: 100%;
+	//background: rgba(249, 24, 234, .6);
+	margin-bottom: 10px;
+}
+.adminSearch input[type=text] {
+	padding: 6px;
+	border: none;
+	font-size: 2em;
+	width: 80%;
+}
+.adminSearch button {
+	float: right;
+	padding: 6px;
+	background: #ddd;
+	font-size: 2em;
+	border: none;
+	width: 20%;
+}
+
+/*PLAYER TABLE*/
+table {
+	width: 80%;
+	margin: auto; 
+	border-collapse: separate;
+    border-spacing: 0 15px;
+}
+tr {
+	//background: rgba(147, 0, 0, .3);
+}
+td, th {
+	padding: 10px;
+	text-align: left;
+}
+#playerTable {
+	width: 100%;
+	height: 100%;
+}
+.adminTable {
+	height: 90%;
+	padding-top: 10px;
+	background: rgba(49, 50, 80, .6);
+	overflow-y: scroll;
+
+}
+.adminImg {
+	width: 20%;
+	text-align: center;
+}
+.adminImg > img {
+	width: 45%;
+	border-radius: 100px;
+}
+
+.adminUser {
+	width: 40%;
+	line-height: 10px;
+	font-size: 3em;
+	//background: rgba(249, 24, 234, .6);
+}
+.adminEdit {
+	padding: 1px;
+	width: 10%;
+	text-align: center;
+}
+.adminEdit img {
+	width: 50%;
+
+	//background: rgba(49, 50, 80, .6);
+}
+	/*
+	background: rgba(249, 24, 234, .6);
+	
+	*/

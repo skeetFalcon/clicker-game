@@ -1,0 +1,5 @@
+DB více tabulek -> jinaèí zpùsob získávání dat
+
+stary design prepsan na responsivni
+JS a PHP zustava..
+pokracovat v ClickerGame-v1

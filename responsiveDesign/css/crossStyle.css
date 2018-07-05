@@ -1,0 +1,45 @@
+.container {
+    position: relative;
+    background: gray;
+    //padding: 30px;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+}
+.container:before, .container:after {
+    position: absolute;
+    background: blue;
+    content: "";
+    height: 100px;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: rotateZ(0deg);
+}
+
+.container:after {
+    transform: translate(-50%, -50%);
+    background: red;
+    
+}
+.container:hover::after,.container:focus::after {
+    animation: redmove 1s forwards;
+} 
+.container:hover::before,.container:focus::before {
+    animation: bluemove 1s forwards;
+} 
+@keyframes redmove {
+    100% {
+        transform: rotateZ(90deg);
+        width: 10%;
+        opacity: 1;
+    }
+}
+@keyframes bluemove {
+    100% {
+        width: 10%;
+        opacity: 1;
+
+    }
+}
